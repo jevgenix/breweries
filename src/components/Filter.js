@@ -26,6 +26,7 @@ const Filter = ({
       ) {
         return brewery;
       }
+      return NaN;
     })
     .map((brewery, index) => {
       return (
